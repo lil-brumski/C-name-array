@@ -7,13 +7,6 @@ int main(){
 	      int n;
 	      std::cin>>n;
 	      
-	        //Will run when the user enters an invalid input.
-	        while (!(std::cin >> n)) {
-        std::cin.clear(); // Clear error flags
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Discard input buffer
-        
-        std::cout << "Invalid input. Please enter a valid input: ";
-    }
     
 	      //Checks if the user has only 1 name.
 	      if(n == 1){
